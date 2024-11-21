@@ -1,2 +1,2 @@
 # volvo-server
-Serveris su Volvais, Kategorija = Informacija, Projektas - Maxi
+Serveris = su Volvais, Kategorija = Informacija, Projektas = Maxi, 
