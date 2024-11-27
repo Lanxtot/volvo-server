@@ -57,7 +57,7 @@ td {
 }
 
 tr:nth-child(odd) {
-  background-color: beige;
+  background-color: whitesmoke;
 }
 tr:nth-child(even) {
   background-color: rosybrown;
