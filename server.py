@@ -11,6 +11,10 @@ def home():
 @app.route('/product')
 def product():
     return render_template('product.html')
+
+@app.route('/contact')
+def product():
+    return render_template('contact.html')
     
 # Paleidžiame serverį
 if __name__ == '__main__':
