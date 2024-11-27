@@ -46,6 +46,15 @@ button {
   
 }
 
+td {
+  padding-left: 30px;
+  padding-right: 50px;
+}
+
+tr:nth-child(even) {
+  background-color: rosybrown;
+}
+
  /* unvisited link */
  a:link {
   color: black;
