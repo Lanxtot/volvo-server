@@ -48,6 +48,7 @@ button {
 
 table {
   margin-left: 30px;
+  font-family: Helvetica, sans-serif;
 }
 
 td {
@@ -55,6 +56,9 @@ td {
   padding-right: 30px;
 }
 
+tr:nth-child(odd) {
+  background-color: beige;
+}
 tr:nth-child(even) {
   background-color: rosybrown;
 }
