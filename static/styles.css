@@ -46,9 +46,13 @@ button {
   
 }
 
+table {
+  margin-left: 30px;
+}
+
 td {
-  padding-left: 30px;
-  padding-right: 50px;
+  padding-left: 5px;
+  padding-right: 30px;
 }
 
 tr:nth-child(even) {
