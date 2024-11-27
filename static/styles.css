@@ -37,9 +37,9 @@ button {
   cursor: pointer;
   margin: 4px 2px;
   display: inline-block;
-  margin-left: 10%;
-  margin-right: 10%;
-  width: 10%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  width: 15%;
   color: black;
   font-family: Helvetica, sans-serif;
   text-align: center;
