@@ -5,8 +5,19 @@ body {
 h1 {
   text-align: center;
   color: white;
+  border-radius: 25px;
   margin-left: 30px;
   margin-right: 30px;
+  background-color: royalblue;
+  font-family: Helvetica, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  border-radius: 25px;
+  margin-left: 300px;
+  margin-right: 300px;
   background-color: royalblue;
   font-family: Helvetica, sans-serif;
 }
