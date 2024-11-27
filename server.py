@@ -13,7 +13,7 @@ def product():
     return render_template('product.html')
 
 @app.route('/contact')
-def product():
+def contact():
     return render_template('contact.html')
     
 # Paleidžiame serverį
