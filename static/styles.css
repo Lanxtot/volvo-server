@@ -28,6 +28,24 @@ p {
   font-family: Helvetica, sans-serif;
 }
 
+button {
+  background-color: lightcyan;
+  border: 2px solid gray;
+  border-radius: 10px;
+  padding: 16px 32px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 4px 2px;
+  display: inline-block;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 15%;
+  color: black;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  
+}
+
  /* unvisited link */
  a:link {
   color: black;
