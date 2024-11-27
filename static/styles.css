@@ -27,3 +27,23 @@ p {
   margin-left: 30px;
   font-family: Helvetica, sans-serif;
 }
+
+ /* unvisited link */
+ a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: grey;
+}
+
+/* mouse over link */
+a:hover {
+  color: darkred;
+}
+
+/* selected link */
+a:active {
+  color: darkblue;
+} 
