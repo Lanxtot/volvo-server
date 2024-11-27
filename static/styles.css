@@ -1,0 +1,16 @@
+body {
+  background-color: papayawhip;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-color: royalblue;
+}
+
+p {
+  color: black;
+  margin-left: 30px;
+}
