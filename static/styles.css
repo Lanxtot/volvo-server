@@ -32,7 +32,7 @@ a.button {
   background-color: lightcyan;
   border: 2px solid gray;
   border-radius: 10px;
-  padding: 16px 32px;
+  padding: 8px 16px;
   font-size: 16px;
   cursor: pointer;
   margin: 4px 2px;
@@ -90,3 +90,4 @@ img {
   border: 1px solid black;
   box-shadow: 20px 20px 40px #000000;
 }
+
