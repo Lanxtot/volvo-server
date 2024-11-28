@@ -33,13 +33,13 @@ button {
   border: 2px solid gray;
   border-radius: 10px;
   padding: 16px 32px;
-  font-size: 32px;
+  font-size: 16px;
   cursor: pointer;
   margin: 4px 2px;
   display: inline-block;
   margin-left: 2.5%;
   margin-right: 2.5%;
-  width: 10%;
+  width: 12%;
   color: black;
   font-family: Helvetica, sans-serif;
   text-align: center;
