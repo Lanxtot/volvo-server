@@ -2,12 +2,59 @@ body {
   background-color: papayawhip;
 }
 
+.main {
+  margin-left: 190px;
+  margin-right: 30px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 130px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: royalblue;
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding-left: 24px;
+}
+
+.sidenav a {
+  padding: 2px 2px 6px 0px;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  font-family: Helvetica, sans-serif;
+  color: white;
+}
+s
+.sidenav a:link {
+  color: white;
+}
+
+.sidenav a:visited {
+  color: white;
+}
+
+.sidenav a:hover, a:active {
+  color: red;
+}
+
+.sidenav p {
+  color:white;
+  bottom: 0;
+  position: absolute;
+  padding-bottom: 30px;
+  font-size: 11px;
+  font-family: Helvetica, sans-serif;
+}
+
+
 h1 {
   text-align: center;
   color: white;
   border-radius: 25px;
-  margin-left: 30px;
-  margin-right: 30px;
   background-color: royalblue;
   font-family: Helvetica, sans-serif;
 }
@@ -24,9 +71,9 @@ h2 {
 
 p {
   color: black;
-  margin-left: 30px;
   font-family: Helvetica, sans-serif;
 }
+
 
 a.button {
   background-color: lightcyan;
@@ -47,7 +94,6 @@ a.button {
 }
 
 table {
-  margin-left: 30px;
   font-family: Helvetica, sans-serif;
 }
 
@@ -63,22 +109,18 @@ tr:nth-child(even) {
   background-color: rosybrown;
 }
 
- /* unvisited link */
- a:link {
+a:link {
   color: black;
 }
 
-/* visited link */
 a:visited {
-  color: grey;
+  color: inherit;
 }
 
-/* mouse over link */
 a:hover {
   color: darkred;
 }
 
-/* selected link */
 a:active {
   color: darkblue;
 } 
@@ -90,4 +132,3 @@ img {
   border: 1px solid black;
   box-shadow: 20px 20px 40px #000000;
 }
-
