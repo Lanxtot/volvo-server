@@ -43,7 +43,7 @@ def review():
         comment = request.form['comment']
         write_review(name, comment)
         return redirect(url_for('review'))
-    reviews=read_reviews()
+    reviews=reversed(read_reviews())
     return render_template('review.html', reviews=reviews)
 
 # Paleidžiame serverį
