@@ -3,7 +3,7 @@ import csv
 
 app = Flask(__name__)
 
-CSV_FILE = "../reviews.csv"
+CSV_FILE = "./data/reviews.csv"
 
 def read_reviews():
     reviews = []
