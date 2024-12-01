@@ -25,8 +25,7 @@ def write_review(name, comment):
 
 @app.route('/')
 def home():
-    reviews=read_reviews()
-    return render_template('index.html', reviews=reviews)
+    return render_template('index.html')
 
 # Informacijos apie produktą puslapis
 @app.route('/product')
@@ -44,7 +43,8 @@ def review():
         comment = request.form['comment']
         write_review(name, comment)
         return redirect(url_for('review'))
-    return render_template('review.html')
+    reviews=read_reviews()
+    return render_template('review.html', reviews=reviews)
 
 # Paleidžiame serverį
 if __name__ == '__main__':
