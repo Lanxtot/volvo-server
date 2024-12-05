@@ -46,6 +46,10 @@ def review():
     reviews=reversed(read_reviews())
     return render_template('review.html', reviews=reviews)
 
+@app.route('/branch')
+def branch():
+    return render_template('branch.html')
+
 # Paleidžiame serverį
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
